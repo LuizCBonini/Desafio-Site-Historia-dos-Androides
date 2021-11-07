@@ -41,9 +41,10 @@ h1 {
 }
 main {
     background-color: white;
-    padding: 0px 10px;
+    padding: 10px 10px;
     margin: 0px 264px auto;
     min-width: 550px;
+    border-radius: 0px 0px 10px 10px;
 }
 h2 {
     font: normal normal 2em 'idroid', Times, serif;
@@ -61,9 +62,30 @@ h3 {
 p {
     margin: 10px;
 }
-#video {
+.boxvideo {
     background-color: rgb(0, 90, 0);
-    width: 800px; 
+    width: auto; 
     margin: 1em auto;
     text-align: center;
+}
+section > aside {
+    background-color: #2FA866;
+    color: white;
+    font-style: bold;
+    border-radius: 10px 10px 0px 0px;
+    padding: 4px;
+}
+.extra {
+    background-color: #C5EBD6;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.274);
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 83, 0);
+}
+footer > p {
+    margin: 10px 0px 0px 0px;
+    padding: 5px;
 }
