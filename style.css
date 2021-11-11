@@ -64,8 +64,7 @@ header > p {
     font-size: 1.2em;
     max-width: 600px;
     margin: auto;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363);
 }
 nav {
@@ -86,7 +85,7 @@ nav a:hover {
     transition-duration: 0.3s;
 }
 main {
-    min-width: 300px;
+    min-width: 100px;
     max-width: 1000px;
     margin: auto;
     background-color: white;
