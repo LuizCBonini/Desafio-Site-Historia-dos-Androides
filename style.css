@@ -49,7 +49,7 @@ header {
     height: 150px;
     text-align: center;
     padding-top: 40px;
-    min-height: 150px;
+    min-height: 200px;
 }
 header > h1 {
     color: white;
@@ -65,12 +65,12 @@ header > p {
     font-size: 1.2em;
     max-width: 600px;
     margin: auto;
-    padding: 20px 10px 0px 10px;
+    padding: 0px 10px 20px 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.363);
 }
 nav {
     background-color: var(--cor5);
-    padding: 10px;
+    padding: 10px 5px 10px 5px;
     box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.411);
 }
 nav a {
